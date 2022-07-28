@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revolution</title>
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/revolution.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <div class="landing" id="landing">
+        <div class="overlay"></div>
+        <nav>                
+            <div class="logo">revolution</div>
+            <ul class="nav">
+                <li class="active" data-section="landing">Landing</li>
+                <li data-section="about">About</li>
+                <li data-section="skills">Skills</li>
+                <li data-section="more">More 
+                    <ul class="hidden">
+                        <li data-section="gallery">Gallery</li>
+                        <li data-section="timeline">Timeline</li>
+                        <li data-section="features">Features</li>
+                        <li data-section="testimonials">Testimonials</li>
+                        <li data-section="contact-us">Contact us</li>                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="landing-body">
+            <h1><span>Expand</span> your imaginations</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque nostrum neque voluptatibus nesciunt dolore nam ipsam, distinctio commodi ipsum soluta.</p>
+        </div>
+    </div>
+    <div class="settings-container">
+        <div class="settings-box">
+            <h3>colors</h3>
+            <div class="colors-options">
+                <div class="option active" data-color="#FF9800"></div>
+                <div class="option" data-color="#E91E63"></div>
+                <div class="option" data-color="#009688"></div>
+                <div class="option" data-color="#03A9F4"></div>
+                <div class="option" data-color="#4CAF50"></div>
+            </div>
+        </div>
+        <div class="settings-box random">
+            <h3>Random background</h3>
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no"> No </span>
+        </div>
+        <div class="settings-box bul">
+            <h3>Show bullets</h3>
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no"> No </span>
+        </div>
+        <div class="reset">Reset</div>
+        <div class="icon">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="text-holder">
+            <h3>About us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Suscipit, sequi assumenda atque fuga vel fugiat. Architecto 
+                doloremque perferendis sed molestias, officia, expedita ut 
+                reprehenderit error quas odit magni quibusdam fugiat!</p>
+        </div>
+        <img src="./images/about.jpg" alt="">
+    </div>
+    <div class="skills" id="skills">
+        <h3>Our skills</h3>
+        <div class="skill" data-progress="80%">
+            <h4>HTML</h4>
+            <div class="holder">
+                <div class="data-progress"></div>
+                <div class="percentage"></div>
+            </div>
+        </div>
+        <div class="skill" data-progress="70%">
+            <h4>CSS</h4>
+            <div class="holder">
+                <div class="data-progress"></div>
+                <div class="percentage"></div>
+            </div>       
+        </div>
+        <div class="skill" data-progress="90%">
+            <h4>JAVASCRIPT</h4>
+            <div class="holder">
+                <div class="data-progress"></div>
+                <div class="percentage"></div>
+            </div>
+        </div>
+        <div class="skill" data-progress="80%">
+            <h4>Python</h4>
+            <div class="holder">
+                <div class="data-progress"></div>
+                <div class="percentage"></div>
+            </div>
+        </div>
+        <div class="skill" data-progress="90%">
+            <h4>PHP</h4>
+            <div class="holder">
+                <div class="data-progress"></div>
+                <div class="percentage"></div>
+            </div>
+        </div>
+        <div class="skill" data-progress="70%">
+            <h4>My MSQL</h4>
+            <div class="holder">
+                <div class="data-progress"></div>
+                <div class="percentage"></div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery" id="gallery">
+        <div class="container">
+            <h3>Gallery</h3>
+            <div class="images">
+                <img src="./images/article 1.jpg" alt="article" data-number="1">
+                <img src="./images/article 2.jpg" alt="article" data-number="1">
+                <img src="./images/article 3.jpg" alt="article" data-number="1">
+                <img src="./images/article 4.jpg" alt="article" data-number="1">
+                <img src="./images/article 5.jpg" alt="article" data-number="1">
+                <img src="./images/article 6.jpg" alt="article" data-number="1">
+                <img src="./images/article 7.jpg" alt="article" data-number="1">
+                <img src="./images/article 8.jpg" alt="article" data-number="1">
+                <img src="./images/article 9.jpg" alt="article" data-number="1">
+                <img src="./images/article 10.jpg" alt="article" data-number="1">
+            </div>
+        </div>
+    </div>
+    <div class="timeline" id="timeline">
+        <div class="container">
+            <div class="space">
+                <div class="item right">
+                    <div class="year">2019</div>
+                    <h3>Testing Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Minus repudiandae sit hic ea a repellat maiores deleniti 
+                        laborum facilis dolorum rerum illum, nobis et. Nisi 
+                        totam beatae qui cumque omnis!
+                    </p>
+                </div>
+            </div>
+            <div class="space">
+                <div class="item">
+                    <div class="year">2020</div>
+                    <h3>Testing Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Minus repudiandae sit hic ea a repellat maiores deleniti 
+                        laborum facilis dolorum rerum illum, nobis et. Nisi 
+                        totam beatae qui cumque omnis!
+                    </p>
+                </div>
+            </div>
+            <div class="space">
+                <div class="item right">
+                    <div class="year">2021</div>
+                    <h3>Testing Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Minus repudiandae sit hic ea a repellat maiores deleniti 
+                        laborum facilis dolorum rerum illum, nobis et. Nisi 
+                        totam beatae qui cumque omnis!
+                    </p>
+                </div>
+            </div>
+            <div class="space">
+                <div class="item">
+                    <div class="year">2022</div>
+                    <h3>Testing Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Minus repudiandae sit hic ea a repellat maiores deleniti 
+                        laborum facilis dolorum rerum illum, nobis et. Nisi 
+                        totam beatae qui cumque omnis!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="features" id="features">
+        <h3>features</h3>
+        <div class="container">
+            <div class="feature">
+                <div class="image">
+                    <img src="./images/icon 1.png" alt="" width="200px" height="200px">
+                </div>
+                <h4>In No Time</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore 
+                    amet ipsam, minus at voluptas tempora
+                </p>
+            </div>
+            <div class="feature">
+                <div class="image">
+                    <img src="./images/icon 2.png" alt="" width="200px" height="200px">
+                </div>                <h4>Deadline is our magic</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore 
+                    amet ipsam, minus at voluptas tempora
+                </p>
+            </div>
+            <div class="feature">
+                <div class="image">
+                    <img src="./images/icon 3.png" alt="" width="200px" height="200px">
+                </div>
+                <h4>Service with no money</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore 
+                    amet ipsam, minus at voluptas tempora
+                </p>
+            </div>
+            <div class="feature">
+                <div class="image">
+                    <img src="./images/icon 4.png" alt="" width="200px" height="200px">
+                </div>
+                <h4>Best quality</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore 
+                    amet ipsam, minus at voluptas tempora
+                </p>
+            </div>
+            <div class="feature">
+                <div class="image">
+                    <img src="./images/icon 5.png" alt="" width="200px" height="200px">
+                </div>
+                <h4>Support is your best friend</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore 
+                    amet ipsam, minus at voluptas tempora
+                </p>
+            </div>
+            <div class="feature">
+                <div class="image">
+                    <img src="./images/icon 1.png" alt="" width="200px" height="200px">
+                </div>                
+                <h4>Developing is a life style</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore 
+                    amet ipsam, minus at voluptas tempora
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="testimonials" id="testimonials">
+        <div class="container">
+            <h3>testimonials</h3>
+            <div class="cards">
+                <div class="card">
+                    <p class="main-para">I am very happy with this product, I recieved it in no time, also the price was very cheap, I can say that the service is amazing.</p>
+                    <div class="info">
+                        <img src="./images/blank.png" alt="">
+                        <div class="text">
+                            <h4>Ahmed Saeed</h4>
+                            <p>C.E.O of "X" company</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <p class="main-para">I am very happy with this product, I recieved it in no time, also the price was very cheap, I can say that the service is amazing.</p>
+                    <div class="info">
+                        <img src="./images/blank.png" alt="">
+                        <div class="text">
+                            <h4>Mohamed Ibraheem</h4>
+                            <p>C.E.O of "X" company</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <p class="main-para">I am very happy with this product, I recieved it in no time, also the price was very cheap, I can say that the service is amazing.</p>
+                    <div class="info">
+                        <img src="./images/blank.png" alt="">
+                        <div class="text">
+                            <h4>Shrief Ashraf</h4>
+                            <p>C.E.O of "X" company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bullets">
+        <div class="icons">
+            <div class="icon">
+                <i class="fas fa-angle-left cbg fa-2x"></i>
+                <i class="fas fa-angle-right cbg"></i>
+            </div>
+        </div>
+        <div class="bullet" data-section="landing">
+            <div class="before"></div>
+            <div class="after">About</div>
+        </div>
+        <div class="bullet" data-section="about">
+            <div class="before"></div>
+            <div class="after">About</div>
+        </div>
+        <div class="bullet" data-section="skills">
+            <div class="before"></div>
+            <div class="after">About</div>
+        </div>
+        <div class="bullet" data-section="gallery">
+            <div class="before"></div>
+            <div class="after">About</div>
+        </div>
+        <div class="bullet" data-section="timeline">
+            <div class="before"></div>
+            <div class="after">About</div>
+        </div>
+        <div class="bullet" data-section="features">
+            <div class="before"></div>
+            <div class="after">About</div>
+        </div>
+        <div class="bullet" data-section="testimonials">
+            <div class="before"></div>
+            <div class="after">About</div>
+        </div>
+        <div class="bullet" data-section="contact-us">
+            <div class="before"></div>
+            <div class="after">About</div>
+        </div>
+    </div>
+    <div class="contact-us" id="contact-us">
+        <h3>Contact Us</h3>
+        <div class="container">
+            <form>
+                <div>
+                    <input type="text" name="Name" placeholder="Your Name">
+                    <input type="tel" name="Phone-Number" placeholder="Your Phone Number">
+                    <input type="email" name="Email" placeholder="Your E-mail">
+                    <input type="text" name="Subject" placeholder="Message Subject">
+                </div>
+                <div>
+                    <textarea name="Message" placeholder="Write your maessage here"></textarea>
+                    <input type="submit" value="send">
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>Created with love by Bob Beshara &copy; 2022</p>
+    </footer>
+    <script src="javascript/main.js"></script>
+</body>
+</html>
